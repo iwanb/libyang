@@ -263,3 +263,7 @@ endif(ENABLE_BUILD_TESTS)
 if(JAVASCRIPT_BINDING)
 	include(swig/javascript/CMakeLists.txt)
 endif()
+
+if(PYTHON_BINDING)
+	include(swig/python/CMakeLists.txt)
+endif()
